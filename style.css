@@ -1,0 +1,91 @@
+body {
+    font-family: Inter, serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* Align items to the start and end */
+    color: #fff;
+    padding: 10px;
+    align-items: center;
+    /* Vertically center items */
+}
+
+/* Style for the logo */
+.logo {
+    display: inline-block;
+    margin-left: 261px;
+}
+
+/* Style for the navigation links */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 261px;
+    display: flex;
+    /* Use flexbox for navigation links */
+}
+
+li {
+    margin-right: 60px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.3s;
+    /* Add a smooth transition for the color change */
+}
+
+/* Change color on hover */
+a:hover {
+    color: #6c9fdd;
+}
+
+h1 {
+    font-size: 44px;
+    color: #424242;
+    line-height: 55px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+h5 {
+    font-size: 20px;
+    color: #424242;
+    line-height: 34px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 400;
+    text-transform: none;
+    text-indent: opx;
+}
+
+
+.btn {
+    font-weight: 500;
+    font-size: 19.2px;
+    color: #ffffff;
+    background-color: #387ed1;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+}
